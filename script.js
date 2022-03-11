@@ -13,9 +13,9 @@ window.addEventListener("load", function() {
                             <li>Skills: ${json[i].skills}</li>
                         </ul>
                     </div>
-                    <img class="avatar" src="images/mae-jemison.jpg">
+                    <img class="avatar" src=${json[i].picture}>
                     </div>
-                `;
+            `;
         };
       });
     });
