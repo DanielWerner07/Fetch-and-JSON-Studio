@@ -17,6 +17,7 @@ window.addEventListener("load", function() {
                     </div>
             `;
         };
+        div.innerHTML += `<h1>total astronaut count: ${json.length}</h1>`
       });
     });
   });
